@@ -23,35 +23,10 @@ npm run dev
 ### Deployment
 
 ```
-npm run deploy
+fork this repo
+cloudflare pages -> create a new project -> select your repo
+select vue preset -> save and deploy
 ```
-
-### Development Plan
-
-- [x] Redesign UI
-- [x] Support compress image
-- [ ] Save history of upload
-- [ ] Support set whitelist to prevent abuse
-- [ ] Support copy multiple formats, such as Markdown
-
-### FAQ
-
-<details>
-  <summary>How to deploy to Cloudflare?</summary>
-
-```bash
-$ git clone https://github.com/ifyour/cf-image-hosting.git
-$ cd cf-image-hosting
-$ npm run install && npm run deploy
-```
-
-</details>
-
-<details>
-  <summary>How to bind a domain name?</summary>
-  Triggers -> Custom Domains -> Add a custom domain.
-  <img src="https://images.mingming.dev/file/a7e19c9e0f169861fefa6.png" width="700" />
-</details>
 
 ### License
 

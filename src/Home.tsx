@@ -50,7 +50,7 @@ export function Home() {
             ></div>
             <a
               className="text-center text-muted"
-              href="https://github.com/ifyour/cf-image-hosting"
+              href="https://github.com/Alphasxd/imag3s"
               target="_blank"
             >
               GitHub
